@@ -406,5 +406,13 @@
             {"skillName": ["Max Mobility",""], "aspdValue": 1, "skillId": 112110014, "exclusive Weapon": "Eka"},
             {"skillName": ["Meow Card",""], "aspdValue": 2, "skillId": 112121006, "situationalFlag": 1}
         ]
+    },
+    {
+        "className": ["Jett","제트"],
+        "classId": 508,
+        "weapons": ["Gun"],
+        "aspdSkills": [
+            {"skillName": ["Galactic Might",""],"aspdValue": 2, "skillId": 5081023}
+        ]
     }
 ]
