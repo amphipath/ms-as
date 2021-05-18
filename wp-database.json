@@ -1,0 +1,172 @@
+[
+    {
+        "weaponName":"1HSword",
+        "baseSpeed": 5,
+        "weaponId": 1302343
+    },
+    {
+        "weaponName":"2HSword",
+        "baseSpeed": 6,
+        "weaponId": 1402259
+    },
+    {
+        "weaponName":"1HAxe",
+        "baseSpeed": 5,
+        "weaponId": 1312203
+    },
+    {
+        "weaponName":"2HAxe",
+        "baseSpeed": 6,
+        "weaponId": 1412181
+    },
+    {
+        "weaponName":"1HBlunt",
+        "baseSpeed": 5,
+        "weaponId": 1322255
+    },
+    {
+        "weaponName":"2HBlunt",
+        "baseSpeed": 6,
+        "weaponId": 1422189
+    },
+    {
+        "weaponName":"Spear",
+        "baseSpeed": 6,
+        "weaponId": 1432218
+    },
+    {
+        "weaponName":"Polearm",
+        "baseSpeed": 5,
+        "weaponId": 1442274
+    },
+    {
+        "weaponName":"RevolvingGauntlet",
+        "baseSpeed": 5,
+        "weaponId": 1582023
+    },
+    {
+        "weaponName":"Tuner",
+        "baseSpeed": 4,
+        "weaponId": 1213018
+    },
+    {
+        "weaponName":"LongSword",
+        "baseSpeed": 6,
+        "weaponId": 10000001
+    },
+    {
+        "weaponName":"BroadSword",
+        "baseSpeed": 8,
+        "weaponId": 10000002
+    },
+    {
+        "weaponName":"Desperado",
+        "baseSpeed": 6,
+        "weaponId": 1232113
+    },
+    {
+        "weaponName":"Staff",
+        "baseSpeed": 8,
+        "weaponId": 1382265
+    },
+    {
+        "weaponName":"Magic",
+        "baseSpeed": 6,
+        "weaponId": 1000000
+    },
+    {
+        "weaponName":"ShiningRod",
+        "baseSpeed": 6,
+        "weaponId": 1212120
+    },    
+    {
+        "weaponName":"PsyLimiter",
+        "baseSpeed": 6,
+        "weaponId": 1262039
+    },
+    {
+        "weaponName":"MagicGauntlet",
+        "baseSpeed": 6,
+        "weaponId": 1282017
+    },
+    {
+        "weaponName":"Wand",
+        "baseSpeed": 6,
+        "weaponId": 1372228
+    },    
+    {
+        "weaponName":"Bow",
+        "baseSpeed": 6,
+        "weaponId": 1452257
+    },
+    {
+        "weaponName":"Crossbow",
+        "baseSpeed": 6,
+        "weaponId": 1462243
+    },
+    {
+        "weaponName":"DualBowgun",
+        "baseSpeed": 6,
+        "weaponId": 1522143
+    },
+    {
+        "weaponName":"AncientBow",
+        "baseSpeed": 6,
+        "weaponId": 1592020
+    },
+    {
+        "weaponName":"BrassShooter",
+        "baseSpeed": 4,
+        "weaponId": 1482111
+    },
+    {
+        "weaponName":"Claw",
+        "baseSpeed": 4,
+        "weaponId": 1472265
+    },
+    {
+        "weaponName":"Dagger",
+        "baseSpeed": 4,
+        "weaponId": 1332279
+    },
+    {
+        "weaponName":"Cane",
+        "baseSpeed": 5,
+        "weaponId": 1362140
+    },
+    {
+        "weaponName":"EnergySword",
+        "baseSpeed": 5,
+        "weaponId": 1242121
+    },
+    {
+        "weaponName":"Buchae",
+        "baseSpeed": 4,
+        "weaponId": 1292018
+    },
+    {
+        "weaponName":"Chain",
+        "baseSpeed": 4,
+        "weaponId": 1272017
+    },
+    {
+        "weaponName":"Knuckle",
+        "baseSpeed": 5,
+        "weaponId": 1482221
+    },
+    {
+        "weaponName":"Gun",
+        "baseSpeed": 5,
+        "weaponId": 1492235
+    },
+    {
+        "weaponName":"HandCannon",
+        "baseSpeed": 8,
+        "weaponId": 1532150
+    },
+    {
+        "weaponName":"SoulShooter",
+        "baseSpeed": 5,
+        "weaponId": 1222113
+    }
+]

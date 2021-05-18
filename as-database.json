@@ -1,0 +1,391 @@
+[
+    {
+        "className": ["Hero","히오로"],
+        "classId": 11,
+        "weapons": ["1HSword","2HSword","1HAxe","2HAxe"],
+        "aspdSkills": [
+            {"skillName": ["Weapon Mastery","웨폰 마스터리"], "aspdValue": 1, "skillId": 1100000},
+            {"skillName": ["Weapon Booster","웨폰 부스터"], "aspdValue": 2, "skillId": 1101004}            
+        ]
+    },
+    {
+        "className": ["Paladin","팔라딘"],
+        "classId": 12,
+        "weapons": ["1HSword","2HSword","1HBlunt","2HBlunt"],
+        "aspdSkills": [
+            {"skillName": ["Weapon Mastery","웨폰 마스터리"], "aspdValue": 1, "skillId": 1100000},
+            {"skillName": ["Weapon Booster","웨폰 부스터"], "aspdValue": 2, "skillId": 1101004}            
+        ]
+    },
+    {
+        "className": ["Dark Knight","다크나이트"],
+        "classId": 13,
+        "weapons": ["Spear","Polearm"],
+        "aspdSkills": [
+            {"skillName": ["Weapon Mastery","웨폰 마스터리"], "aspdValue": 1, "skillId": 1300000, "exclusiveWeapon": "Spear"},
+            {"skillName": ["Weapon Booster","웨폰 부스터"], "aspdValue": 2, "skillId": 1301004}            
+        ]
+    },
+    {
+        "className": ["Archmage (Fire/Poison)","아크메이지(불,독)"],
+        "classId": 21,
+        "weapons": ["Magic"],
+        "aspdSkills": [
+            {"skillName": ["MPBoost","MP 증가"], "aspdValue": 1, "skillId": 2000006},
+            {"skillName": ["Magic Booster","매직 부스터"], "aspdValue": 2, "skillId": 2101008}
+        ]
+    },
+    {
+        "className": ["Archmage (Ice/Lightning)","아크메이지(썬,콜)"],
+        "classId": 22,
+        "weapons": ["Magic"],
+        "aspdSkills": [
+            {"skillName": ["MPBoost","MP 증가"], "aspdValue": 1, "skillId": 2000006},
+            {"skillName": ["Magic Booster","매직 부스터"], "aspdValue": 2, "skillId": 2101008}
+        ]
+    },
+    {
+        "className": ["Bishop","비숍"],
+        "classId": 23,
+        "weapons": ["Magic"],
+        "aspdSkills": [
+            {"skillName": ["MPBoost","MP 증가"], "aspdValue": 1, "skillId": 2000006},
+            {"skillName": ["Magic Booster","매직 부스터"], "aspdValue": 2, "skillId": 2101008},
+            {"skillName": ["Angelic Vengeance","벤전스 오브 엔젤"], "aspdValue": 1, "skillId":2321054,"situationalFlag": 1}
+        ]
+    },
+    {
+        "className": ["Bowmaster","보우마스터"],
+        "classId": 31,
+        "weapons": ["Bow"],
+        "aspdSkills": [
+            {"skillName": ["Archery Mastery","아처 마스터리"], "aspdValue": 1, "skillId":3000002},
+            {"skillName": ["Bow Acceleration","보우 액셀레이션"],"aspdValue": 2, "skillId":"3101002b"}
+        ]
+    },
+    {
+        "className": ["Crossbow Master","신궁"],
+        "classId": 32,
+        "weapons": ["Crossbow"],
+        "aspdSkills": [
+            {"skillName": ["Archery Mastery","아처 마스터리"], "aspdValue": 1, "skillId":3000002},
+            {"skillName": ["Crossbow Booster","크로스보우 부스터"],"aspdValue": 2, "skillId":3201002}
+        ]
+    },
+    {
+        "className": ["Pathfinder","패스파인더"],
+        "classId": 33,
+        "weapons": ["AncientBow"],
+        "aspdSkills": [
+            {"skillName": ["Archery Mastery","아처 마스터리"], "aspdValue": 1, "skillId":3000002},
+            {"skillName": ["Ancient Bow Booster","에인션트 보우 부스터"],"aspdValue": 2, "skillId":3301010}
+        ]
+    },
+    {
+        "className": ["Night Lord","나이트로드"],
+        "classId": 41,
+        "weapons": ["Claw"],
+        "aspdSkills": [
+            {"skillName": ["Claw Booster","자벨린 부스터"],"aspdValue": 2, "skillId":4101003}
+        ]
+    },
+    {
+        "className": ["Shadower","섀도어"],
+        "classId": 42,
+        "weapons": ["Dagger"],
+        "aspdSkills": [
+            {"skillName": ["Dagger Booster","대거 부스터"],"aspdValue": 2, "skillId":4201002}
+        ]
+    },
+    {
+        "className": ["Dual Blade","듀얼블레이드"],
+        "classId": 43,
+        "weapons": ["Dagger"],
+        "aspdSkills": [
+            {"skillName": ["Katara Booster","이도 부스터"],"aspdValue": 2, "skillId":4311009}
+        ]
+    },
+    {
+        "className": ["Viper","바이퍼"],
+        "classId": 51,
+        "weapons": ["Knuckle"],
+        "aspdSkills": [
+            {"skillName": ["Knuckle Booster","너클 부스터"], "aspdValue": 2, "skillId":5101006},
+            {"skillName": ["Speed Infusion","윈드 부스터"],"aspdValue": 2, "skillId": 5121009}
+        ]
+    },
+    {
+        "className": ["Captain","캡틴"],
+        "classId": 52,
+        "weapons": ["Gun"],
+        "aspdSkills": [
+            {"skillName": ["Gun Booster","건 부스터"], "aspdValue": 2, "skillId":5201003}
+        ]
+    },
+    {
+        "className": ["Cannon Master","캐논슈터"],
+        "classId": 53,
+        "weapons": ["HandCannon"],
+        "aspdSkills": [
+            {"skillName": ["Reinforced Cannon","리인포스 캐논"], "aspdValue": 1, "skillId":5310006},
+            {"skillName": ["Cannon Overload","오버버닝 캐논"], "aspdValue": 1, "skillId":5320009},
+            {"skillName": ["Buck Shot","벅 샷"], "aspdValue": 1, "skillId":5321054},
+            {"skillName": ["Cannon Booster","캐논 부스터"], "aspdValue": 2, "skillId":5301002}
+        ]
+    },
+    {
+        "className": ["Soul Master","소울마스터"],
+        "classId": 111,
+        "weapons": ["1HSword","2HSword"],
+        "aspdSkills": [
+            {"skillName": ["Sol Stance","라이징 선"],"aspdValue": 1, "skillId":11111022},
+            {"skillName": ["Harmony of the Sword","마스터 오브 더 소드"],"aspdValue":1,"skillId":11120009},
+            {"skillName": ["Nimble Finger","님블 핑거"], "aspdValue": 2,"skillId":11101024}
+        ]
+    },
+    {
+        "className": ["Flame Wizard","플레임위자드"],
+        "classId": 121,
+        "weapons": ["Magic"],
+        "aspdSkills": [
+            {"skillName": ["Verses of Flames","북 오브 파이어"], "aspdValue": 2, "skillId":12101023},
+            {"skillName": ["Burning Conduit","버닝 리전"], "aspdValue": 1, "skillId":12121005,"situationalFlag":1}
+        ]
+    },
+    {
+        "className": ["Wind Breaker","윈드브레이커"],
+        "classId": 131,
+        "weapons": ["Bow"],
+        "aspdSkills": [
+            {"skillName": ["Bow Booster","보우 부스터"],"aspdValue": 2, "skillId":13101001},
+            {"skillName": ["Albatross","알바트로스"],"aspdValue": 1, "skillId":13111023},
+            {"skillName": ["Albatross Maximum","알바트로스 맥시멈"], "aspdValue":1, "skillId":13120008}
+        ]
+    },
+    {
+        "className": ["Night Walker","나이트워커"],
+        "classId": 141,
+        "weapons": ["Claw"],
+        "aspdSkills": [
+            {"skillName": ["Throwing Booster", "스로잉 부스터"], "aspdValue": 2, "skillId":14101022}
+        ]
+    },
+    {
+        "className": ["Striker","스트라이커"],
+        "classId": 151,
+        "weapons": ["Knuckle"],
+        "aspdSkills": [
+            {"skillName": ["Knuckle Booster","너클 부스터"], "aspdValue": 2, "skillId":5101006},
+            {"skillName": ["Speed Infusion","윈드 부스터"],"aspdValue": 2, "skillId": 5121009}
+        ]
+    },
+    {
+        "className": ["Mihile","미하일"],
+        "classId": 511,
+        "weapons": ["1HSword"],
+        "aspdSkills": [
+            {"skillName": ["Intense Focus","인텐션"],"aspdValue": 1,"skillId":51110001},
+            {"skillName": ["Sword Booster","소드 부스터"], "aspdValue": 2, "skillId":51101003}
+        ]
+    },
+    {
+        "className": ["Aran","아란"],
+        "classId": 211,
+        "weapons": ["Polearm"],
+        "aspdSkills": [
+            {"skillName": ["Polearm Mastery","폴암 마스터리"], "aspdValue": 1, "skillId":21110000},
+            {"skillName": ["Polearm Booster", "폴암 부스터"], "aspdValue": 2, "skillId": 21001003}
+        ]
+    },
+    {
+        "className": ["Evan","에반"],
+        "classId": 221,
+        "weapons": ["Magic"],
+        "aspdSkills": [
+            {"skillName": ["Dive - Come Back!","다이브-돌아와!"], "aspdValue": 1, "skillId":22140013},
+            {"skillName": ["Magic Booster","매직 부스터"], "aspdValue": 2, "skillId": 22111020}
+        ]
+    },
+    {
+        "className": ["Mercedes","메르세데스"],
+        "classId": 231,
+        "weapons": ["DualBowgun"],
+        "aspdSkills": [
+            {"skillName": ["Elven Grace","왕의 자격"],"aspdValue": 1, "skillId":20020112},
+            {"skillName": ["Dual Bowguns Boost","듀얼보우건 부스터"], "aspdValue": 2, "skillId":23101002}
+        ]
+    },
+    {
+        "className": ["Phantom","펜텀"],
+        "classId": 241,
+        "weapons": ["Cane"],
+        "aspdSkills": [
+            {"skillName": ["Cane Acceleration","케인 액셀레이션"],"aspdValue": 2, "skillId":"24101005b"}
+        ]
+    },
+    {
+        "className": ["Eunwol","은월"],
+        "classId": 251,
+        "weapons": ["Knuckle"],
+        "aspdSkills": [
+            {"skillName": ["Spirit Bond 2","정령 결속 2식"], "aspdValue":1, "skillId":25100107},
+            {"skillName": ["Spirit Bond Max","정령 결속 극대화"], "aspdValue":1, "skillId":25121133}
+        ]
+    },
+    {
+        "className": ["Luminous","루미너스"],
+        "classId": 271,
+        "weapons": ["ShiningRod"],
+        "aspdSkills": [
+            {"skillName": ["Spell Mastery","스펠 마스터리"], "aspdValue": 1, "skillId": 27100005},
+            {"skillName": ["Magic Booster","매직 부스터"], "aspdValue": 2, "skillId": 27100004}
+        ]
+    },
+    {
+        "className": ["Demon Slayer","데몬슬레이어"],
+        "classId": 311,
+        "weapons": ["1HBlunt","1HAxe"],
+        "aspdSkills": [
+            {"skillName": ["Focused Fury","컨센트레이션"], "aspdValue": 1, "skillId": 31110007},
+            {"skillName": ["Battle Pact","데몬 부스터"], "aspdValue": 2, "skillId": 31001001}
+        ]
+    },
+    {
+        "className": ["Demon Avenger","데몬어벤져"],
+        "classId": 312,
+        "weapons": ["Desperado"],
+        "aspdSkills": [
+            {"skillName": ["Overwhelming Power","오버휄밍 파워"], "aspdValue": 1, "skillId": 31220004},
+            {"skillName": ["Demon Booster","데몬 부스터"], "aspdValue": 2, "skillId":31201002}
+        ]
+    },
+    {
+        "className": ["Battle Mage","배틀메이지"],
+        "classId": 321,
+        "weapons": ["Staff"],
+        "aspdSkills": [
+            {"skillName": ["Yellow Aura (Passive)","옐로우 오라 (페시브)"], "aspdValue": 2, "skillId":32001016},
+            {"skillName": ["Reflex Enhancement","너브 스티뮬레이션"],"aspdValue": 1, "skillId":32110019},
+            {"skillName": ["Staff Booster","스태프 부스터"],"aspdValue":2, "skillId":32101005},
+            {"skillName": ["Yellow Aura (Active)","옐로우 오라 (엑티브)"], "aspdValue": 1, "skillId":32001016}
+        ]
+    },
+    {
+        "className": ["Wild Hunter","와일드헌터"],
+        "classId": 331,
+        "weapons": ["Crossbow"],
+        "aspdSkills": [
+            {"skillName": ["Crossbow Acceleration","크로스보우 액셀레이션"],"aspdValue": 2, "skillId":"33101012b"},
+            {"skillName": ["Feline Berserk",""], "aspdValue": 1, "skillId":33111007},
+            {"skillName": ["Feline Berserk - Rapid Attack","비스트 폼-래피드 어택"],"aspdValue": 1, "skillId":33120045, "situationalFlag": 1}
+        ]
+    },
+    {
+        "className": ["Mechanic","메카닉"],
+        "classId": 351,
+        "weapons": ["Gun"],
+        "aspdSkills": [
+            {"skillName": ["Mechanic Rage","메카닉 부스터"], "aspdValue": 2, "skillId":35101006}
+        ]
+    },
+    {
+        "className": ["Xenon","제논"],
+        "classId": 361,
+        "weapons":["EnergySword"],
+        "aspdSkills": [
+            {"skillName": ["Xenon Booster","제논 부스터"], "aspdValue": 2, "skillId":36101004}
+        ]
+    },
+    {
+        "className": ["Blaster","블래스터"],
+        "classId": 371,
+        "weapons": ["RevolvingGauntlet"],
+        "aspdSkills": [
+            {"skillName": ["Combo Focusing","콤비네이션 트레이닝"], "aspdValue": 1, "skillId":37110009, "situationalFlag": 1}
+            {"skillName": ["Gauntlet Booster","건틀렛 부스터"], "aspdValue": 2, "skillId":37101003}
+        ]
+    },
+    {
+        "className": ["Kaiser","카이저"],
+        "classId": 611,
+        "weapons": ["2HSword"],
+        "aspdSkills": [
+            {"skillName": ["Transfiguration","트랜스피규레이션"], "aspdValue": 1, "skillId":60000221, "situationalFlag": 1},
+            {"skillName": ["Blaze On","블레이즈 업"], "aspdValue": 2, "skillId": 61101004},
+            {"skillName": ["Kaiser's Majesty","마제스티 오브 카이저"], "aspdValue": 1, "skillId": 61121054, "situationalFlag":1}
+        ]
+    },
+    {
+        "className": ["Cadena","카데나"],
+        "classId": 641,
+        "weapons": ["Chain"],
+        "aspdSkills": [
+            {"skillName": ["Weapon Booster","웨폰 부스터"], "aspdValue": 2, "skillId":64101003}
+        ]
+    },
+    {
+        "className": ["Angelic Buster","엔젤릭버스터"],
+        "classId": 651,
+        "weapons": ["SoulShooter"],
+        "aspdSkills": [
+            {"skillName": ["Melody Cross","리리컬 크로스"], "aspdValue": 2, "skillId":65001002}
+        ]
+
+    },
+    {
+        "className": ["Zero","제로"],
+        "classId": 10111,
+        "weapons": ["LongSword","BroadSword"],
+        "aspdSkills": [
+            {"skillName": ["Doubletime","래피드 타임"], "aspdValue": 1, "skillId":100000267},
+            {"skillName": ["Long Sword Mastery","태도 마스터리"], "aspdValue": 3, "skillId":101000203, "exclusiveWeapon": "LongSword"},
+            {"skillName": ["Broad Sword Mastery","대검 마스터리"], "aspdValue": 3, "skillId":101000103, "exclusiveWeapon": "BroadSword"}, 
+            {"skillName": ["Divine Speed","디바인 스위프트"], "aspdValue": 1, "skillId": 100001264},
+            {"skillName": ["Time Distortion","타임 디스토션"], "aspdValue": 1, "skillId": 100001261, "situationalFlag": 1},
+            {"skillName": ["Limit Break","리미트 브레이크"], "aspdValue": 2, "skillId": 400011024,"situationalFlag": 1}
+        ]
+    },
+    {
+        "className": ["Kinesis","키네시스"],
+        "classId": 1421,
+        "weapons": ["PsyLimiter"],
+        "aspdSkills": [
+            {"skillName": ["ESP Booster","ESP 부스터"], "aspdValue":2, "skillId":142001003},
+            {"skillName": ["Pure Power","순수한 힘"], "aspdValue": 1, "skillId": 142100005}
+        ]
+    },
+    {
+        "className": ["Adele","아델"],
+        "classId": 1511,
+        "weapons": ["Tuner"],
+        "aspdSkills": [
+            {"skillName": ["Booster","부스터"], "aspdValue": 2, "skillId":151101005}
+        ]
+    },
+    {
+        "className": ["Illium","일리움"],
+        "classId": 1521,
+        "weapons": ["MagicGauntlet"],
+        "aspdSkills": [
+            {"skillName": ["Crystal's Secret","크리스탈의 비밀"], "aspdValue": 1, "skillId": 152120015},
+            {"skillName": ["Magic Gauntlet Booster","매직 건틀렛 부스터"], "aspdValue": 2, "skillId": 152101007}
+        ]
+    },
+    {
+        "className": ["Ark","아크"],
+        "classId": 1551,
+        "weapons": ["Knuckle"],
+        "aspdSkills": [
+            {"skillName": ["Knuckle Booster","나클 부스터"], "aspdValue": 2, "skillId": 155101005},
+            {"skillName": ["Gust Spell","거스트 스펠"], "aspdValue": 1, "skillId": 155111003}
+        ]
+    },
+    {
+        "className": ["Ho Young","호영"],
+        "classId": 1641,
+        "weapons": ["Buchae"],
+        "aspdSkills": [
+            {"skillName": ["Buchae Acceleration","부채 가속"], "aspdValue": 2, "skillId": 164101005}
+        ]
+    }
+]
