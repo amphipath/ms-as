@@ -90,6 +90,26 @@
         "weaponId": 1282017
     },
     {
+        "weaponName":"Fort",
+        "baseSpeed": 6,
+        "weaponId": 11201
+    },    
+    {
+        "weaponName":"Eka",
+        "baseSpeed": 6,
+        "weaponId": 11202
+    },    
+    {
+        "weaponName":"Lai",
+        "baseSpeed": 6,
+        "weaponId": 11203
+    },    
+    {
+        "weaponName":"Arby",
+        "baseSpeed": 6,
+        "weaponId": 11204
+    },
+    {
         "weaponName":"Wand",
         "baseSpeed": 6,
         "weaponId": 1372228

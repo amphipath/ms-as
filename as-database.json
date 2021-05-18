@@ -316,6 +316,14 @@
         ]
     },
     {
+        "className": ["Kain","카인"],
+        "classId": 631,
+        "weapons": ["BrassShooter"],
+        "aspdSkills": [
+            {"skillName": ["Brass Shooter Booster","브레스 슈터 부스터"], "aspdValue": 2, "skillId": 63101001}
+        ]
+    },
+    {
         "className": ["Cadena","카데나"],
         "classId": 641,
         "weapons": ["Chain"],
@@ -386,6 +394,17 @@
         "weapons": ["Buchae"],
         "aspdSkills": [
             {"skillName": ["Buchae Acceleration","부채 가속"], "aspdValue": 2, "skillId": 164101005}
+        ]
+    },
+    {
+        "className": ["Beast Tamer","브스트테이머"],
+        "classId": 1120,
+        "weapons": ["Fort","Eka","Lai","Arby"],
+        "aspdSkills": [
+            {"skillName": ["Defense Ignorance",""], "aspdValue": 2, "skillId": 112000012, "exclusiveWeapon": "Fort"},
+            {"skillName": ["Leopard Reflexes",""], "aspdValue": 2, "skillId": 112100015, "exclusive Weapon": "Lai"},
+            {"skillName": ["Max Mobility",""], "aspdValue": 1, "skillId": 112110014, "exclusive Weapon": "Eka"},
+            {"skillName": ["Meow Card",""], "aspdValue": 2, "skillId": 112121006, "situationalFlag": 1}
         ]
     }
 ]
