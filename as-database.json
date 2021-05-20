@@ -148,6 +148,7 @@
         "classId": 121,
         "weapons": ["Magic"],
         "aspdSkills": [
+            {"skillName": ["Spell Control","주문 연마"], "aspdValue": 1, "skillId": 12100027},
             {"skillName": ["Verses of Flames","북 오브 파이어"], "aspdValue": 2, "skillId":12101023},
             {"skillName": ["Burning Conduit","버닝 리전"], "aspdValue": 1, "skillId":12121005,"situationalFlag":1}
         ]
