@@ -302,7 +302,7 @@
         "classId": 371,
         "weapons": ["RevolvingGauntlet"],
         "aspdSkills": [
-            {"skillName": ["Combo Focusing","콤비네이션 트레이닝"], "aspdValue": 1, "skillId":37110009, "situationalFlag": 1}
+            {"skillName": ["Combo Focusing","콤비네이션 트레이닝"], "aspdValue": 1, "skillId":37110009, "situationalFlag": 1},
             {"skillName": ["Gauntlet Booster","건틀렛 부스터"], "aspdValue": 2, "skillId":37101003}
         ]
     },
@@ -414,6 +414,24 @@
         "weapons": ["Gun"],
         "aspdSkills": [
             {"skillName": ["Galactic Might",""],"aspdValue": 2, "skillId": 5081023}
+        ]
+    },
+    {
+        "className": ["Hayato","하야토"],
+        "classId": 411,
+        "weapons": ["Katana"],
+        "aspdSkills": [
+            {"skillName": ["Katana Booster","부스터"], "aspdValue": 2, "skillId":41101005},
+            {"skillName": ["Sword Discipline",""],"aspdValue": 1, "skillId":40011186,"situationalFlag": 1}
+        ]
+    },
+    {
+        "className": ["Kanna","칸나"],
+        "classId": 421,
+        "weapons": ["Fan"],
+        "aspdSkills": [
+            {"skillName": ["Fan Booster","부스터"], "aspdValue": 2, "skillId":42101003},
+            {"skillName": ["Conjure Spiritstone",""], "aspdValue": 2, "skillId":400021054, "situationalFlag": 1}
         ]
     }
 ]

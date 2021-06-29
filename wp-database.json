@@ -188,5 +188,15 @@
         "weaponName":"SoulShooter",
         "baseSpeed": 5,
         "weaponId": 1222113
+    },
+    {
+        "weaponsName": "Katana",
+        "baseSpeed": 5,
+        "weaponId": 411
+    },
+    {
+        "weaponsName": "Fan",
+        "baseSpeed": 6,
+        "weaponId": 421
     }
 ]
