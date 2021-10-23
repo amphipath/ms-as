@@ -433,5 +433,15 @@
             {"skillName": ["Fan Booster","부스터"], "aspdValue": 2, "skillId":42101003},
             {"skillName": ["Conjure Spiritstone",""], "aspdValue": 2, "skillId":400021054, "situationalFlag": 1}
         ]
+    },
+    {
+        "className": ["Lara", "라라"],
+        "classId": 1621,
+        "weapons": ["Wand"],
+        "aspdSkills": [
+            {"skillName": ["Expression: Wind Swing","발현 : 바람 그네"], "aspdValue": 1, "skillId":162111000, "situationalFlag": 1},
+            {"skillName": ["Wand Booster","지팡이 가속"], "aspdValue": 2, "skillId":162101013}
+
+        ]
     }
 ]
